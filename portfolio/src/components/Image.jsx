@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const Image = ({data}) => {
   return (
-    <img className="Image" src={data}/>
+    <img className="image" src={data}/>
   );
 }
 
