@@ -1,0 +1,74 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App {
+  height: 100%;
+  width: 100%;
+  text-align: left;
+  font-family: Montserrat, "Open sans", sans-serif;
+  color: slategray;
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  position: fixed;
+  width: 250px;
+}
+
+.navbar {
+  --bs-navbar-color: slategray;
+  --bs-navbar-hover-color: #e79b0f;
+  --bs-navbar-disabled-color: #ffffff40;
+  --bs-navbar-active-color: slategray;
+}
+
+.navbar-nav {
+  width: 100%;
+  padding: 0px 30px;
+}
+
+#nav-photo {
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+#nav-info {
+  font-weight: 400;
+}
+
+.nav-link {
+  padding: 4px;
+}
+
+.Gallery {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.gallery-column {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  min-width: 250px;
+}
+
+.Image {
+  min-width: 250px;
+  max-width: 400px;
+  flex: 1;
+  padding: 15px;
+}
+
+.Content {
+  width: 100%;
+  padding-left: 250px;
+  padding-right: 50px;
+  flex: 1;
+}
