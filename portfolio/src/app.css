@@ -19,7 +19,22 @@
 
 :root {
   --dark-cyan: #0c5470;
-  --orange: #F1A314;
+  --orange: #e49a12;
+  --dark-blue: #0f375e;
+}
+
+li {
+  list-style-position: inside;
+}
+
+li::marker {
+  color: var(--dark-blue);
+}
+
+p.list-header {
+  color: var(--orange);
+  font-size: 18px;
+  margin-bottom: 8px;
 }
 
 .App-logo {
@@ -32,7 +47,7 @@
   width: 100%;
   text-align: left;
   font-family: Montserrat, "Open sans", sans-serif;
-  color: slategray;
+  color: var(--dark-blue);
   display: flex;
   flex-direction: row;
 }
