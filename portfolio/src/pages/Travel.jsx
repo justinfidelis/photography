@@ -5,14 +5,7 @@ const Travel = () => {
   const images = require.context("../../images/Travel", true);
   const imageList = images.keys().map((image) => images(image));
 
-  const galleryData = {
-    title: "Travel",
-    imageList: imageList,
-  };
-
-  return (
-    <Gallery data={galleryData} />
-  );
+  return <Gallery title="Travel" imageList={imageList} />;
 }
 
 export default Travel;
