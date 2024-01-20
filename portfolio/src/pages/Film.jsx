@@ -1,11 +1,18 @@
 import React from "react";
 import Gallery from "../components/Gallery";
+import index from "../metadata.json";
 
 const Film = () => {
-  const images = require.context("../../images/Film", true);
-  const imageList = images.keys().map((image) => images(image));
+  const data = index.film;
+  const imageList = Object.keys(data.images);
 
-  return <Gallery title="Film" imageList={imageList} />;
+  return (
+    <Gallery
+      title={data.header}
+      imageFolder={data.path}
+      imageList={imageList}
+    />
+  );
 }
 
 export default Film;

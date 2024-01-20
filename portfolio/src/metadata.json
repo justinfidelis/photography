@@ -1,0 +1,112 @@
+{
+  "singapore": {
+    "path": "singapore",
+    "header": "Singapore",
+    "images": {
+      "P1000306.jpg": {
+        "location": "",
+        "caption": ""
+      },
+      "P1001061.jpg": {
+        "location": "",
+        "caption": ""
+      },
+      "P1001282.jpg": {
+        "location": "",
+        "caption": ""
+      },
+      "P1001683.jpg": {
+        "location": "",
+        "caption": ""
+      }
+    }
+  },
+  "travel": {
+    "path": "travel",
+    "header": "Travel",
+    "images": {
+      "P1006310.JPG": {
+        "location": "",
+        "caption": ""
+      },
+      "P1006354.JPG": {
+        "location": "",
+        "caption": ""
+      },
+      "P1006372.JPG": {
+        "location": "",
+        "caption": ""
+      },
+      "P1006437.jpg": {
+        "location": "",
+        "caption": ""
+      },
+      "P1017595.JPG": {
+        "location": "",
+        "caption": ""
+      },
+      "P1017599.JPG": {
+        "location": "",
+        "caption": ""
+      },
+      "P1017645.jpg": {
+        "location": "",
+        "caption": ""
+      },
+      "P1017672.JPG": {
+        "location": "",
+        "caption": ""
+      },
+      "P1017683.JPG": {
+        "location": "",
+        "caption": ""
+      },
+      "P1017815.JPG": {
+        "location": "",
+        "caption": ""
+      },
+      "P1018042.JPG": {
+        "location": "",
+        "caption": ""
+      },
+      "P1018044.JPG": {
+        "location": "",
+        "caption": ""
+      },
+      "P1028158.JPG": {
+        "location": "",
+        "caption": ""
+      },
+      "P1028166.JPG": {
+        "location": "",
+        "caption": ""
+      }
+    }
+  },
+  "film": {
+    "path": "film",
+    "header": "Film",
+    "images": {
+      "000623280009.jpg": {
+        "location": "",
+        "caption": ""
+      },
+      "000623280010.jpg": {
+        "location": "",
+        "caption": ""
+      },
+      "000623280032.jpg": {
+        "location": "",
+        "caption": ""
+      },
+      "000982870017.jpg": {
+        "location": "",
+        "caption": ""
+      },
+      "001064430007.jpg": {
+        "location": "",
+        "caption": ""
+      }
+    }
+  }
+}

@@ -12,25 +12,72 @@ const Sidebar = () => {
   return (
     <Navbar className="flex-column sidebar">
       <NavbarBrand>
-        <p role="button" id="nav-name" onClick={() => navigate("/")}>
+        <p
+          role="button"
+          id="nav-name"
+          onClick={() => {
+            navigate("/");
+            setCurrentPage(0);
+          }}
+        >
           Justin Wong
         </p>
       </NavbarBrand>
       <Nav className="flex-column" id="nav-photo">
         <Nav.Item>
-          <Nav.Link onClick={() => navigate("/singapore")}>Singapore</Nav.Link>
+          <Nav.Link
+            style={
+              currentPage === 1 ? { color: "var(--bs-navbar-hover-color)" } : {}
+            }
+            onClick={() => {
+              navigate("/singapore");
+              setCurrentPage(1);
+            }}
+          >
+            Singapore
+          </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link onClick={() => navigate("/travel")}>Travel</Nav.Link>
+          <Nav.Link
+            style={
+              currentPage === 2 ? { color: "var(--bs-navbar-hover-color)" } : {}
+            }
+            onClick={() => {
+              navigate("/travel");
+              setCurrentPage(2);
+            }}
+          >
+            Travel
+          </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link onClick={() => navigate("/film")}>Film</Nav.Link>
+          <Nav.Link
+            style={
+              currentPage === 3 ? { color: "var(--bs-navbar-hover-color)" } : {}
+            }
+            onClick={() => {
+              navigate("/film");
+              setCurrentPage(3);
+            }}
+          >
+            Film
+          </Nav.Link>
         </Nav.Item>
       </Nav>
 
       <Nav className="flex-column" id="nav-info">
         <Nav.Item>
-          <Nav.Link onClick={() => navigate("/about")}>About</Nav.Link>
+          <Nav.Link
+            style={
+              currentPage === 4 ? { color: "var(--bs-navbar-hover-color)" } : {}
+            }
+            onClick={() => {
+              navigate("/about");
+              setCurrentPage(4);
+            }}
+          >
+            About
+          </Nav.Link>
         </Nav.Item>
         {/* <Nav.Item>
           <Nav.Link href="/contact">Contact</Nav.Link>

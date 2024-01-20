@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 
-const Image = ({data}) => {
-  return (
-    <img className="image" src={data}/>
-  );
+const Image = ({path}) => {
+  return <img className="image" src={process.env.PUBLIC_URL + path} />;
 }
 
 export default Image;

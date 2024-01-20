@@ -1,11 +1,18 @@
 import React from "react";
 import Gallery from "../components/Gallery";
+import index from "../metadata.json";
 
 const Singapore = () => {
-  const images = require.context("../../images/Singapore", true);
-  const imageList = images.keys().map((image) => images(image));
+  const data = index.singapore;
+  const imageList = Object.keys(data.images);
 
-  return <Gallery title="Singapore" imageList={imageList} />;
-}
+  return (
+    <Gallery
+      title={data.header}
+      imageFolder={data.path}
+      imageList={imageList}
+    />
+  );
+};
 
 export default Singapore;

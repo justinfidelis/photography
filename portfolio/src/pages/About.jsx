@@ -7,8 +7,8 @@ const About = () => {
       <Row>
         <Col>
           <p>
-            Hi! I'm Justin, a university student studying Computing.
-            In the past few years, I've been taking up photography as a hobby.
+            Hi! I'm Justin, a university student studying Computing. In the past
+            few years, I've been taking up photography as a hobby.
           </p>
           <p>
             This website is an attempt to link both these passions and will
